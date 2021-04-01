@@ -1,0 +1,11 @@
+{
+  "name": "uikit-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
