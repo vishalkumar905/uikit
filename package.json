@@ -1,15 +1,22 @@
 {
-  "name": "uikit-npm",
-  "version": "1.0.2",
-  "description": "",
+  "name": "@milkshakeswap/milk-uikit",
+  "version": "1.0.1",
   "main": "index.cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vishalkumar905/uikit"
+    "url": "git+https://github.com/vishalkumar905/uikit.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalkumar905/uikit/issues"
+  },
+  "homepage": "https://github.com/vishalkumar905/uikit#readme",
+  "description": ""
 }
