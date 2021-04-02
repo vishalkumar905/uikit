@@ -1,7 +1,10 @@
 {
   "name": "@milkshakeswap/milk-uikit",
-  "version": "1.0.1",
-  "main": "index.cjs.js",
+  "version": "1.0.2",
+  "description": "Set of UI components for pancake projects",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,14 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/vishalkumar905/uikit.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vishalkumar905/uikit/issues"
   },
   "homepage": "https://github.com/vishalkumar905/uikit#readme",
-  "description": ""
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
