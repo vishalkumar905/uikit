@@ -400,7 +400,7 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React.createElement("div", { style: { 'marginRight': '15px' } },
-        React.createElement("img", { alt: "logo", style: { width: "20px" }, src: "/images/egg/logo.png" })));
+        React.createElement("img", { alt: "logo", style: { width: "35px" }, src: "/images/logo-with-circle.png" })));
 };
 
 var Icon$w = function (props) {
