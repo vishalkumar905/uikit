@@ -15,7 +15,7 @@ const rotate = keyframes`
 const SpinnerIcon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 96 96" {...props}>
-      <image width="96" height="96" href="/images/egg/9.png"/>
+      <image width="96" height="96" href="/images/loader.gif"/>
     </Svg>
   );
 };
@@ -28,8 +28,8 @@ const RotatingPancakeIcon = styled(SpinnerIcon)`
   position: absolute;
   top: 0;
   left: 0;
-  animation: ${rotate} 2s linear infinite;
-  transform: translate3d(0, 0, 0);
+  // animation: ${rotate} 2s linear infinite;
+  // transform: translate3d(0, 0, 0);
 `;
 
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
